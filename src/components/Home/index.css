@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+}
+img {
+  height: 180px;
+  width: 180px;
+}
+h1 {
+  font-size: 14px;
+}
+select {
+  width: 50vw;
+  padding: 10px;
+  margin: 2vw;
+  font-weight: bold;
+  border: 2px solid;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 98vw;
+}
+.logo {
+  height: 55px;
+  margin: 2vh;
+}
+
+nav {
+  background-color: #e2e8f0;
+}
